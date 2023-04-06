@@ -1,2 +1,2 @@
 # nepal-heritage
-A web about nepal
+A simple web about nepal
