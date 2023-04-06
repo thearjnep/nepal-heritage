@@ -1,4 +1,5 @@
 # nepal-heritage
-A simple web about nepal
+A simple web about nepal.<br>
+High School project
 
-Live at  nepal-heritage.netlify.app/ 
+Live at  ```nepal-heritage.netlify.app/```
