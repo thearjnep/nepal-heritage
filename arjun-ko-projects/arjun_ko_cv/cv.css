@@ -1,0 +1,217 @@
+html {
+    margin-left: 7%;
+    margin-right: 7%;
+    position: relative;
+}
+
+li {
+    list-style: none;
+}
+
+.lists li {
+    list-style:disc;
+}
+
+i {
+    color: hsl(139, 84%, 50%);
+}
+
+.date {
+    font-size: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: right;
+    font-family: Outfit;
+    margin: auto;
+    position: absolute;
+}
+.side-container {
+    padding: 2rem;
+    background-color: rgb(5, 36, 36);
+    color: #ffff;
+    width: auto;
+    font-size: 1.2rem;
+    border: 5px solid hsl(139, 84%, 50%);
+}
+
+
+.img-container {
+    border-radius: 50%;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    background-color: hsl(139, 84%, 50%);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.img-container img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.brand-name {
+    margin-top: -30px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Tilt Warp;
+}
+
+.main-brand {
+    font-weight: 900;
+    color: hsl(139, 84%, 50%);
+}
+
+.brand-identity {
+    margin-top: -35px;
+    font-size: large;
+}
+
+.section-head, .section-head-2 { 
+    display: flex;
+    align-items: center;
+}
+
+
+.section-head h2{
+    margin-left: 10px;
+    font-size: 2rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: Tilt Warp;
+}
+
+.description {
+    margin-top: -30px;
+    text-align: justify;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info li i {
+    margin-right: 10px;
+}
+
+.skills-description {
+    margin-left: 15px;
+    margin-top: -5px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+  }
+  
+  .skill-name {
+    flex: 1;
+  }
+  
+  .range {
+    width: 150px;
+    height: 10px;
+    background-color: #ffff;
+    margin-left: 20px;
+  }
+  
+  .percent {
+    height: 100%;
+    background-color: hsl(139, 84%, 50%);
+  }
+
+.social-info {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 50px;
+}
+
+.imp-container {
+    position: relative;
+    width: 100%;
+    padding: 1rem 1rem 1rem 1rem;
+    border: 1px solid rgb(5, 36, 36);
+    
+}
+
+.section-head-2 h2 {
+    margin-left: 10px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-family: Tilt Warp;
+}
+
+.any-name {
+    font-size: 1rem;
+}
+
+.corp {
+    font-size: 0.8rem;
+}
+
+.normal-font {
+    font-size: 0.rem;
+}
+
+.right-section {
+    margin-top: -10px;
+    width: 450px;
+    text-align: justify;
+}
+
+.division-1{
+    margin-top: -25px;
+    margin-left: 45px;
+}
+
+.division-2 {
+    line-height: 20px;
+}
+
+ .corp, .lists, .any-description {
+    margin-top: -20px;
+ }
+
+ .any-description {
+    margin-left: 5px
+ }
+
+ .language ul {
+    padding: 0;
+ }
+
+.language img {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+ .language-showup {
+    display: flex;
+    justify-content: space-between;
+ }
+
+
+ 
+
+
+
+@media screen and (width <= 996px) {
+    .right-section {
+        width: auto;
+    }
+
+    html {
+        margin: auto;
+    }
+
+
+}
